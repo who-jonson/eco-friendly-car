@@ -1,0 +1,339 @@
+/* Mixins   */
+/* Common */
+/* line 11, ../sass/style.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 15, ../sass/style.scss */
+a {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+/* line 19, ../sass/style.scss */
+a:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+/*  Index Body  */
+/* line 28, ../sass/style.scss */
+.index-body {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 31, ../sass/style.scss */
+.index-body .index-header .navbar {
+  border-radius: 0;
+  background-color: #fafafa0f;
+  border: 0;
+  box-shadow: 0 1px 16px 0 #505561;
+  min-height: 80px;
+  margin-bottom: 0;
+}
+/* line 32, ../sass/style.scss */
+.index-body .index-header .navbar .navbar-brand {
+  padding: 0;
+}
+/* line 33, ../sass/style.scss */
+.index-body .index-header .navbar .navbar-brand img {
+  max-height: 77px;
+}
+/* line 37, ../sass/style.scss */
+.index-body .index-header .navbar .navbar-nav li a {
+  color: #c5c5c5;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 30px 20px;
+  border-radius: 50%;
+}
+/* line 38, ../sass/style.scss */
+.index-body .index-header .navbar .navbar-nav li a:hover, .index-body .index-header .navbar .navbar-nav li a:focus, .index-body .index-header .navbar .navbar-nav li a:active {
+  background-color: #1a2b3b;
+  color: #fff;
+  border-radius: 0;
+}
+/* line 42, ../sass/style.scss */
+.index-body .index-header .navbar .navbar-nav .index-login-btn a {
+  background-color: #1a2b3b;
+  color: #fff;
+}
+/* line 43, ../sass/style.scss */
+.index-body .index-header .navbar .navbar-nav .index-login-btn a:hover, .index-body .index-header .navbar .navbar-nav .index-login-btn a:focus, .index-body .index-header .navbar .navbar-nav .index-login-btn a:active {
+  color: #c5c5c5;
+}
+/* line 49, ../sass/style.scss */
+.index-body .index-main {
+  color: #b7c9d7;
+}
+/* line 50, ../sass/style.scss */
+.index-body .index-main .index-slogan {
+  display: table;
+  min-height: 600px;
+  width: 100%;
+}
+/* line 51, ../sass/style.scss */
+.index-body .index-main .index-slogan p {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 38px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #a5cdf0;
+}
+/* line 52, ../sass/style.scss */
+.index-body .index-main .index-slogan p .index-slogan-tag {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 400;
+  background-color: #333e4b85;
+  padding: 10px 15px;
+  color: #6ab6f9;
+}
+/* line 55, ../sass/style.scss */
+.index-body .index-main .registration-form {
+  background-color: #284050a1;
+  padding: 15px 25px;
+  margin: 30px 0 50px;
+}
+/* line 57, ../sass/style.scss */
+.index-body .index-main .registration-form .form-header h3 {
+  margin-top: 10px;
+  letter-spacing: 0.02em;
+}
+/* line 59, ../sass/style.scss */
+.index-body .index-main .registration-form hr {
+  margin-top: 0;
+}
+/* line 60, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal {
+  font-size: 15px;
+}
+/* line 61, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .control-label {
+  letter-spacing: 0.01em;
+}
+/* line 65, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal input[type='text'],
+.index-body .index-main .registration-form .form-horizontal input[type='email'],
+.index-body .index-main .registration-form .form-horizontal input[type='password'],
+.index-body .index-main .registration-form .form-horizontal textarea {
+  border-radius: 0;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+  border-bottom: 1px solid #b7c9d7;
+  color: #b7c9d7;
+  letter-spacing: 0.02em;
+}
+/* line 67, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal input[type='text']::placeholder,
+.index-body .index-main .registration-form .form-horizontal input[type='email']::placeholder,
+.index-body .index-main .registration-form .form-horizontal input[type='password']::placeholder,
+.index-body .index-main .registration-form .form-horizontal textarea::placeholder {
+  color: #8393a0;
+}
+/* line 68, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal input[type='text']:focus, .index-body .index-main .registration-form .form-horizontal input[type='text']:active,
+.index-body .index-main .registration-form .form-horizontal input[type='email']:focus,
+.index-body .index-main .registration-form .form-horizontal input[type='email']:active,
+.index-body .index-main .registration-form .form-horizontal input[type='password']:focus,
+.index-body .index-main .registration-form .form-horizontal input[type='password']:active,
+.index-body .index-main .registration-form .form-horizontal textarea:focus,
+.index-body .index-main .registration-form .form-horizontal textarea:active {
+  box-shadow: none;
+}
+/* line 70, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .input-group.date {
+  max-width: 208px;
+}
+/* line 71, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .input-group.date .form-control {
+  margin-left: 15px;
+}
+/* line 72, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .input-group.date .input-group-addon {
+  background-color: #3b4c5a63;
+  color: #6b99bc;
+  border: 0 solid #ccc;
+  border-bottom-width: 1px;
+  cursor: pointer;
+}
+/* line 75, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal select {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #b7c9d7;
+  border-radius: 0;
+  color: #b7c9d7;
+}
+/* line 76, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal select:focus, .index-body .index-main .registration-form .form-horizontal select:active {
+  box-shadow: 0 0 6px #6287a4;
+}
+/* line 77, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal select option {
+  background-color: #263645;
+  color: #b7c9d7;
+}
+/* line 80, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .btn-default {
+  border-radius: 0;
+  color: #b7c9d7;
+  background-color: #2b608f;
+  padding: 8px 26px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  border: 2px solid #2b608f;
+  font-size: 15px;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+/* line 82, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .btn-default:hover, .index-body .index-main .registration-form .form-horizontal .btn-default:focus {
+  background-color: #b7c9d7;
+  color: #2b608f;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+/* line 84, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .btn-default.pull-left {
+  margin-right: 10px;
+}
+/* line 85, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .error.help-block, .index-body .index-main .registration-form .form-horizontal .glyphicon-remove {
+  color: #ff5454;
+}
+/* line 86, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .glyphicon-ok {
+  color: #69d369;
+}
+/* line 87, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .forgot-password {
+  color: #b7c9d7;
+  margin-top: 20px;
+  display: inline-block;
+}
+/* line 88, ../sass/style.scss */
+.index-body .index-main .registration-form .form-horizontal .forgot-password:hover, .index-body .index-main .registration-form .form-horizontal .forgot-password:focus {
+  text-decoration: underline;
+}
+/* line 93, ../sass/style.scss */
+.index-body .index-footer {
+  color: #c5c5c5;
+  position: fixed;
+  bottom: 0;
+  z-index: 123455;
+  background-color: #3b485754;
+  width: 100%;
+}
+/* line 94, ../sass/style.scss */
+.index-body .index-footer p {
+  margin: 0;
+  padding: 10px 0;
+}
+/* line 96, ../sass/style.scss */
+.index-body .index-footer p a:hover, .index-body .index-footer p a:focus {
+  color: #b7c9d7;
+}
+
+/* line 102, ../sass/style.scss */
+.datepicker {
+  background-color: #41586d;
+}
+/* line 103, ../sass/style.scss */
+.datepicker .table-condensed {
+  color: #fff;
+}
+/* line 105, ../sass/style.scss */
+.datepicker .table-condensed tbody .new {
+  color: #b7c9d7;
+}
+
+/* line 109, ../sass/style.scss */
+.datepicker-dropdown.datepicker-orient-top:after {
+  border-top-color: #41586d;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  /* line 117, ../sass/style.scss */
+  .index-body {
+    background-repeat: inherit;
+    background-size: cover;
+  }
+
+  /* line 120, ../sass/style.scss */
+  .index-body .index-header .navbar .navbar-header .navbar-brand {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+  }
+  /* line 121, ../sass/style.scss */
+  .index-body .index-header .navbar .navbar-header .navbar-brand img {
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  /* line 124, ../sass/style.scss */
+  .index-body .index-header .navbar .navbar-collapse {
+    display: block;
+    border: 0;
+    box-shadow: none;
+  }
+  /* line 125, ../sass/style.scss */
+  .index-body .index-header .navbar .navbar-collapse .navbar-nav {
+    margin-bottom: 0;
+  }
+  /* line 126, ../sass/style.scss */
+  .index-body .index-header .navbar .navbar-collapse .navbar-nav li {
+    display: inline-block;
+  }
+  /* line 127, ../sass/style.scss */
+  .index-body .index-header .navbar .navbar-collapse .navbar-nav .index-login-btn {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    text-align: right;
+  }
+  /* line 128, ../sass/style.scss */
+  .index-body .index-header .navbar .navbar-collapse .navbar-nav .index-login-btn a {
+    float: right;
+    margin-right: 20px;
+  }
+
+  /* line 133, ../sass/style.scss */
+  .index-body .index-footer {
+    position: relative;
+    margin-top: 30px;
+  }
+  /* line 134, ../sass/style.scss */
+  .index-body .index-footer p {
+    text-align: center;
+  }
+  /* line 135, ../sass/style.scss */
+  .index-body .index-footer .footer-copyright {
+    padding-bottom: 5px;
+  }
+  /* line 136, ../sass/style.scss */
+  .index-body .index-footer .footer-credit {
+    padding-top: 5px;
+  }
+}

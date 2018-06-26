@@ -1,0 +1,241 @@
+/* Admin Styles  */
+/* Variables */
+/* Mixins   */
+/* Common */
+/* line 16, ../sass/admin.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+  background-color: #f5f7f9;
+}
+
+/* line 23, ../sass/admin.scss */
+a,
+.btn {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+/* line 28, ../sass/admin.scss */
+a:hover,
+.btn:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+/* #Header  */
+/* line 34, ../sass/admin.scss */
+#header {
+  margin-bottom: 50px;
+}
+/* line 35, ../sass/admin.scss */
+#header .navbar {
+  background-color: #1e7eae;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+/* line 36, ../sass/admin.scss */
+#header .navbar a {
+  color: #fff;
+}
+/* line 37, ../sass/admin.scss */
+#header .navbar .navbar-brand {
+  padding: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* line 40, ../sass/admin.scss */
+#header .navbar .nav a:hover, #header .navbar .nav a:focus, #header .navbar .nav a:active {
+  background-color: #e7e7e7;
+  color: #1e7eae;
+}
+/* line 42, ../sass/admin.scss */
+#header .navbar .nav .dropdown-menu {
+  background-color: #1e7eae;
+}
+
+/* #main */
+/* line 51, ../sass/admin.scss */
+#main .sidebar-nav {
+  width: 178px;
+  background-color: #042738;
+  position: fixed;
+  z-index: 99;
+  height: 100%;
+}
+/* line 52, ../sass/admin.scss */
+#main .sidebar-nav .icofont {
+  font-size: 18px;
+}
+/* line 54, ../sass/admin.scss */
+#main .sidebar-nav .nav-stacked a {
+  color: #fff;
+  border-radius: 0;
+  padding: 20px 15px;
+}
+/* line 55, ../sass/admin.scss */
+#main .sidebar-nav .nav-stacked a:hover, #main .sidebar-nav .nav-stacked a:focus, #main .sidebar-nav .nav-stacked a:active {
+  background-color: #e7e7e7;
+  color: #042738;
+  font-weight: 600;
+}
+/* line 57, ../sass/admin.scss */
+#main .sidebar-nav .nav-stacked .active {
+  background-color: #e7e7e7;
+  color: #042738;
+  font-weight: 600;
+}
+/* line 58, ../sass/admin.scss */
+#main .sidebar-nav .nav-stacked .dropdown-menu {
+  background-color: #042738;
+  border-radius: 0;
+  left: 178px;
+  top: -3px;
+}
+/* line 59, ../sass/admin.scss */
+#main .sidebar-nav .nav-stacked .dropdown-menu a {
+  padding: 10px 15px;
+}
+/* line 63, ../sass/admin.scss */
+#main .main-content {
+  margin-left: 178px;
+  margin-bottom: 30px;
+}
+/* line 64, ../sass/admin.scss */
+#main .main-content .efc-admin-body-header {
+  background-color: #fff;
+}
+/* line 65, ../sass/admin.scss */
+#main .main-content .efc-admin-body-header .breadcrumb {
+  padding: 20px;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+/* line 67, ../sass/admin.scss */
+#main .main-content .efc-admin-body-header .go-back .btn-info {
+  margin-top: 10px;
+  margin-right: 5px;
+  float: right;
+}
+/* line 71, ../sass/admin.scss */
+#main .main-content .content-element {
+  padding: 20px;
+}
+/* line 72, ../sass/admin.scss */
+#main .main-content .content-element h3 {
+  margin-top: 0;
+}
+/* line 74, ../sass/admin.scss */
+#main .main-content .content-element .dashboard {
+  margin-top: 80px;
+}
+/* line 75, ../sass/admin.scss */
+#main .main-content .content-element .dashboard .user-image {
+  margin-bottom: 30px;
+}
+/* line 76, ../sass/admin.scss */
+#main .main-content .content-element .dashboard .user-image img {
+  margin: 0 auto;
+  max-width: 300px;
+}
+/* line 80, ../sass/admin.scss */
+#main .main-content .content-element .car-form {
+  border: 2px solid #578EBE;
+  padding-bottom: 25px;
+}
+/* line 81, ../sass/admin.scss */
+#main .main-content .content-element .car-form .form-header {
+  height: 35px;
+  background-color: #578EBE;
+  margin-bottom: 25px;
+  color: #fff;
+}
+/* line 82, ../sass/admin.scss */
+#main .main-content .content-element .car-form .form-header .icofont {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 40px;
+  border-right: 1px solid #e0e0e0;
+}
+/* line 84, ../sass/admin.scss */
+#main .main-content .content-element .car-form .add-new-cat {
+  text-decoration: underline;
+  margin-top: 10px;
+  display: block;
+}
+/* line 86, ../sass/admin.scss */
+#main .main-content .content-element .car-image-up {
+  padding: 30px;
+}
+/* line 87, ../sass/admin.scss */
+#main .main-content .content-element .car-image-up .submit {
+  display: inline-block;
+}
+/* line 92, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content {
+  border: 5px solid #337ab7;
+  border-radius: 0;
+}
+/* line 93, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content .modal-body {
+  padding: 0;
+  border-radius: 0;
+}
+/* line 94, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content .modal-body .panel {
+  margin-bottom: 0;
+  border-radius: 0;
+  border-bottom-width: 6px;
+}
+/* line 95, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content .modal-body .panel .panel-heading {
+  border-radius: 0;
+}
+/* line 96, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content .modal-body .panel .panel-heading .panel-title {
+  font-size: 26px;
+  font-weight: 600;
+}
+/* line 99, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content .modal-body .panel .panel-body .user-image {
+  margin-bottom: 20px;
+}
+/* line 100, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content .modal-body .panel .panel-body .user-image img {
+  width: 250px;
+  margin: 0 auto;
+}
+/* line 103, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content .modal-body .panel .panel-body .table .user-data-label {
+  width: 140px;
+}
+/* line 108, ../sass/admin.scss */
+#main .main-content .content-element #allUsersTable .view-model .modal-content .modal-footer {
+  border-top: 0;
+}
+
+/* .footer */
+/* line 117, ../sass/admin.scss */
+#footer {
+  background-color: #063f5b;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 102;
+}
+/* line 118, ../sass/admin.scss */
+#footer p {
+  margin: 0;
+  padding: 10px 0;
+}
